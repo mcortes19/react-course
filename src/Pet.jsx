@@ -1,9 +1,9 @@
-import React from 'react';
-
-export default function Pet(props) {
-  return React.createElement('div', {}, [
-    React.createElement('h2', {}, props.name),
-    React.createElement('h3', {}, props.animal),
-    React.createElement('h3', {}, props.breed),
-  ]);
+export default function Pet({ name, animal, breed }) {
+  return (
+    <div>
+      <h2>{name}</h2>
+      <h3>{animal}</h3>
+      <h3>{breed}</h3>
+    </div>
+  );
 }
