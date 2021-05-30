@@ -1,12 +1,15 @@
 {
   "name": "react-course",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/mcortes19/react-course.git",
   "author": "mcortes19 <marvin.cortes@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "7.13.4",
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/preset-env": "7.13.5",
     "@babel/preset-react": "^7.12.13",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^8.1.0",
@@ -15,7 +18,8 @@
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "parcel": "^2.0.0-beta.3.1",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "react-router-dom": "5.2.0"
   },
   "scripts": {
     "dev": "parcel src/index.html",
@@ -26,7 +30,11 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
-  "browsersList": [
-    "last 2 versions"
+  "browserslist": [
+    "last 3 and_chr versions",
+    "last 3 chrome versions",
+    "last 3 opera versions",
+    "last 3 ios_saf versions",
+    "last 3 safari versions"
   ]
 }
